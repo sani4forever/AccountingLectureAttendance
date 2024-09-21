@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Предмет" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата" />
+
+    <TextView
+        android:id="@+id/textViewExcused"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пропуск (уваж.)" />
+
+    <TextView
+        android:id="@+id/textViewUnexcused"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пропуск (без уваж.)" />
+</LinearLayout>
