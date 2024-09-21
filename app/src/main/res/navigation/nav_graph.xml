@@ -12,7 +12,7 @@
         tools:layout="@layout/activity_main" />
     <fragment
         android:id="@+id/attendanceFragment"
-        android:name="com.example.accountinglectureattendance.AttendanceFragment"
+        android:name="com.example.accountinglectureattendance.fragments.AttendanceFragment"
         android:label="fragment_attendance"
         tools:layout="@layout/fragment_attendance" />
 </navigation>
