@@ -4,5 +4,5 @@ data class Attendance(
     val subject: String,
     val date: String,
     val missedHoursExcused: Int,
-    val missedHoursUnexcused: Int
+    val missedHoursUnexcused: Int,
 )
